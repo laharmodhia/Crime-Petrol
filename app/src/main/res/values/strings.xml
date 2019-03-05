@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CrimePetrol</string>
+    <string name="title_activity_navi_drawer">Criminality App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Criminality App</string>
+    <string name="nav_header_subtitle">criminality.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_registration">Registration</string>
+    <string name="title_activity_guest_navidrawer">Guest User</string>
+    <string name="title_activity_addactivity">Add Criminality</string>
+    <string name="title_crime">Crime</string>
+    <string name="title_missing">Missing Person</string>
+    <string name="title_complain">Complain</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_edit">Edit Profile</string>
+    <string name="title_history">History</string>
+    <string name="title_complete">Complete</string>
+    <string name="title_activity_profile_form">ProfileForm</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="#a2a4a2"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:src="@drawable/image111"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Crime"
+                android:textSize="30dp" />
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Complete"
+                android:layout_gravity="center"
+                android:id="@+id/Complte1"
+                android:textSize="20dp"/>
+
+
+
+
+         <!--   <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:layout_gravity="center"
+                android:id="@+id/moredetails"
+                android:textSize="20dp"/>-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/image111"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mssing Person"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:id="@+id/name"/>
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Complete"
+                android:layout_gravity="center"
+                android:id="@+id/Complate2"
+                android:textSize="20dp"/>
+
+         <!--   <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/moredetails1"
+                android:text="More Details"
+                android:layout_gravity="center"
+                android:textSize="20dp"/>-->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/image111"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Compalin"
+                android:textSize="30dp" />
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Complete"
+                android:layout_gravity="center"
+                android:id="@+id/Complate3"
+                android:textSize="20dp"/>
+
+           <!-- <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="More Details"
+                android:id="@+id/moredetails2"
+                android:layout_gravity="center"
+                android:textSize="20dp"/>-->
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#a2a4a2"
+tools:context=".complainmoredetails"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="City:Mumabai"
+    android:id="@+id/address"
+    android:textSize="30dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Title:Short Description:The complaint information you submit this site is encrypted via secure socket layer encryption."
+    android:textSize="30dp"
+    android:id="@+id/city"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Pincode:453697"
+    android:textSize="30dp"
+    android:id="@+id/pincode"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Subject:File a Complaint"
+    android:textSize="30dp"
+    android:id="@+id/subject"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".crimemoredetails"
+    android:background="#a2a4a2"
+android:orientation="vertical">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Title of Crime"
+    android:gravity="center"
+    android:textSize="30dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Id:1"
+    android:id="@+id/id"
+    android:textSize="30dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="City:Mumbai"
+    android:id="@+id/city"
+    android:textSize="30dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Zip Code:27816"
+    android:id="@+id/zipcode"
+    android:textSize="30dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Crime Details:Betting racket busted in Santacruz; Four held."
+    android:id="@+id/crimedetails"
+    android:textSize="30dp"/>
+
+</LinearLayout>

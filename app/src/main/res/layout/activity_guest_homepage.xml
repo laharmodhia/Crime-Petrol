@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a2a4a2"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    </android.support.v7.widget.SearchView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="#000"
+                    android:src="@drawable/crime"/>
+
+                <TextView
+                    android:id="@+id/textv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Crime"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Name:Faizan Khan"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/textv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="City: Mumbai"
+                    android:textSize="25dp" />
+
+
+                <Button
+                    android:id="@+id/crime1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="More Details"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:background="#000"
+                        android:src="@drawable/complaint2"/>
+
+                    <TextView
+                        android:id="@+id/textv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Complain"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/textv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Titel: File Complaint"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textv6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address:Limdi"
+                        android:textSize="25dp" />
+
+
+                    <Button
+                        android:id="@+id/complain1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:text="More Details"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:background="#000"
+                            android:src="@drawable/missing1"/>
+
+                        <TextView
+                            android:id="@+id/textv7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Missing Person"
+                            android:textSize="30dp" />
+
+                        <TextView
+                            android:id="@+id/textv8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Name:falguni"
+                            android:textSize="25dp" />
+
+                        <TextView
+                            android:id="@+id/textv9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Address:vadodra"
+                            android:textSize="25dp" />
+
+
+                        <Button
+                            android:id="@+id/missing1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:gravity="center"
+                            android:text="More Details"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
